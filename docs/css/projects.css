@@ -1,0 +1,189 @@
+header nav ul li:nth-child(3) .h-li-line-bottom {
+    width: 100%;
+}
+.cont-projects-carrousel {
+    position: relative;
+    width: 100vw;
+}
+.cont-img-background {
+    width: 100vw;
+    overflow: hidden;
+    background: black;
+}
+.cont-img-background img {
+    max-height: 100vh;
+    width: 100%;
+}
+.cont-letters-background {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    left: 0px;
+    top: 0px;
+    width: 50%;
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+}
+.cont-letters-background > div {
+    width: 100%;
+}
+.cont-letters-background > div h3 {
+    color: var(--color-2);
+    text-shadow: 1px 1px 0.5px white;
+    text-align: center;
+    font-size: 20pt;
+}
+.cont-letters-background > div > div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1rem;
+}
+.cont-letters-background > div > div h4 {
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    font-size: 12pt;
+}
+.cont-letters-background > div > div button {
+    cursor: pointer;
+    color: white;
+    padding: 0.5rem;
+    font-size: 10pt;
+    width: 8rem;
+    height: 2.5rem;
+    border: 2px solid white;
+    background: var(--color-1);
+    transition: all 0.3s;
+}
+.cont-letters-background > div > div button:hover {
+    background: white;
+    border: 3px solid var(--color-1);
+    color: var(--color-1);
+}
+.cont-projects-title h3 {
+    text-align: center;
+    color: black;
+    font-size: 24pt;
+    padding: 1.2rem;
+}
+.line-bottom-title {
+    width: 50%;
+    height: 2px;
+    background: var(--color-1);
+    margin: auto;
+}
+.line-bottom-title div {
+    width: 50%;
+    height: 2px;
+    background: var(--color-2);
+}
+.cont-projects-row > div:nth-child(2) {
+    margin: 1rem 0rem;
+}
+.cont-projects-row > div:nth-child(2) p {
+    text-align: justify;
+    padding: 0rem 2.5rem;
+    font-size: 11pt;
+}
+.cont-search-projects {
+    margin-bottom: 2.5rem;
+}
+.form-search-projects {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem;
+    background: var(--color-2);
+    width: 100%;
+}
+.fields-search-projects:nth-child(3) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fields-search-projects label {
+    color: var(--color-1);
+    text-align: center;
+    width: 4rem;
+    font-size: 10pt;
+    font-family: Roboto-bold, Verdana, Geneva, Tahoma, sans-serif;
+}
+.fields-search-projects select {
+    height: 1.5rem;
+}
+.fields-search-projects input {
+    width: 9rem;
+    height: 1.5rem;
+    font-size: 10pt;
+}
+.fields-search-projects:last-child {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+}
+.fields-search-projects:last-child button {
+    cursor: pointer;
+    background: white;
+    width: 7.5rem;
+    height: 2.5rem;
+    outline: none;
+    border: 2px solid var(--color-1);
+    color: var(--color-1);
+    font-size: 12pt;
+    font-weight: bold;
+    border-top: none;
+    transition: all 0.3s;
+}
+.fields-search-projects:last-child button:hover {
+    background: var(--color-1);
+    border: 1px solid black;
+    border-top: none;
+    color: white;
+}
+.cont-projects-row-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0.5rem 2rem;
+    margin-top: 3rem;
+}
+.cont-projects-elements-row {
+    width: 22rem;
+    margin: 0.1rem;
+    margin-bottom: 1rem;
+    border: 1px solid dimgray;
+}
+.projects-elements-img {
+    position: relative;
+}
+.projects-elements-img span {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    padding: 0.5rem;
+    background: var(--color-2);
+    color: white;
+    font-size: 14pt;
+    width: 3.5rem;
+    text-align: center;
+    text-shadow: 0px 0px 5px black;
+}
+.projects-elements-img img {
+    width: 100%;
+}
+.projects-elements-title h4 {
+    text-align: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid var(--color-1);
+    margin-bottom: 0.7rem;
+    font-size: 15pt;
+}
+.projects-elements-title p {
+    font-size: 10pt;
+    padding: 0.5rem;
+    text-align: justify;
+}
